@@ -28,8 +28,11 @@ const Hero = () => {
                            </h1>
                            <h1>{aboutMe[1].title2}</h1>
                            <h1>{aboutMe[2].title3}</h1>
-                           <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>{greetings.text}</p>
-                           <Button/>
+                           <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>{greetings.text} </p>
+                           <Button className='md:w-80 md:h-16 w-60 h-12 py-4'
+                           id='button'
+                           text="See my work"/>
+                           
                         </div>
                     </div>
                 </header>
