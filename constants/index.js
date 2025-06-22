@@ -266,19 +266,19 @@ const aboutMe = [
 
     {
         id: "1",
-        title1: "Carving",
+        title1: "Crafting ",
     },
     {
         id: "2",
-        title2: "with dedication",
+        title2: "with passion",
     },
     {
         id: "3",
-        title3: "and passion",
+        title3: "and dedication",
     },
 ];
 const greetings = {
-text:"Hi, I’m Aung Chan — a developer who codes with purpose, designs with curiosity, and learns with relentless grit."
+text:"Hi, I’m Aung Chan — a developer who brings ideas to life with intent and impact."
 };
 export {
   words,
