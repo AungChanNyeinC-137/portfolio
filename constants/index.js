@@ -285,6 +285,7 @@ const showcaseProjects = [
 {id: '1', title:'FakeProect1', imgPath:'/images/project1.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
 {id: '2', title:'FakeProect2', imgPath:'/images/project2.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
 {id: '3', title:'FakeProect3', imgPath:'/images/project3.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
+{id: '4', title:'FakeProect4', imgPath:'/images/project3.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
 ]
 export {
   words,
