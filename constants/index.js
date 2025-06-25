@@ -1,3 +1,4 @@
+
 const navLinks = [
   {
     name: "Work",
@@ -29,10 +30,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 2, suffix: "+", label: "Years of Experience",},
+  { value: 10, suffix: "+", label: "Satisfied Clients" },
+  { value: 10, suffix: "+", label: "Completed Projects" },
+  { value: 90, suffix: "%", label: "Client Retention Rate"  },
 ];
 
 const logoIconsList = [
@@ -280,6 +281,11 @@ const aboutMe = [
 const greetings = {
 text:"Hi, I’m Aung Chan — a developer who brings ideas to life with intent and impact."
 };
+const showcaseProjects = [
+{id: '1', title:'FakeProect1', imgPath:'/images/project1.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
+{id: '2', title:'FakeProect2', imgPath:'/images/project2.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
+{id: '3', title:'FakeProect3', imgPath:'/images/project3.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
+]
 export {
   words,
   abilities,
@@ -294,4 +300,5 @@ export {
   navLinks,
   aboutMe,
   greetings,
+  showcaseProjects,
 };
