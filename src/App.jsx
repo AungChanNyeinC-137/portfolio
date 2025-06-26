@@ -2,6 +2,9 @@ import React from 'react'
 import Hero from './sections/Hero'
 import ShowcaseSection from './sections/ShowcaseSection'
 import Navbar from './components/Navbar'
+import LogoSection from './sections/LogoSection'
+import FeaturedCards from './sections/FeaturedCards'
+import ExperienceSection from './sections/ExperienceSection'
 
 const App = () => {
   return (
@@ -9,6 +12,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <ShowcaseSection />
+      <LogoSection/>
+      <FeaturedCards/>
+      <ExperienceSection/>
     </>
 
   )

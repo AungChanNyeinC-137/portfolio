@@ -20,8 +20,8 @@ const HeroExperience = () => {
         enableZoom={!isTablet} // Disables zoom on tablets
         maxDistance={20} // Maximum distance for zooming out
         minDistance={5} // Minimum distance for zooming in
-        minPolarAngle={isMobile ? Math.PI / 3 : Math.PI / 6}
-        maxPolarAngle={isMobile ? Math.PI / 3 : Math.PI / 2}
+        minPolarAngle={Math.PI / 6}
+        maxPolarAngle={Math.PI / 2}
       />
 
       <HeroLights />

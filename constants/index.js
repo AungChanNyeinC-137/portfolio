@@ -76,12 +76,12 @@ const abilities = [
   {
     imgPath: "/images/seo.png",
     title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    desc: "Delivering exceptional results while maintaining attention to each and every detail.",
   },
   {
     imgPath: "/images/chat.png",
     title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    desc: "Ensuring open and consistent communication throughout the project.",
   },
   {
     imgPath: "/images/time.png",
@@ -285,7 +285,7 @@ const showcaseProjects = [
 {id: '1', title:'FakeProect1', imgPath:'/images/project1.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
 {id: '2', title:'FakeProect2', imgPath:'/images/project2.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
 {id: '3', title:'FakeProect3', imgPath:'/images/project3.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
-{id: '4', title:'FakeProect4', imgPath:'/images/project3.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
+// {id: '4', title:'FakeProect4', imgPath:'/images/project3.png', description:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio natus porro quas? Corrupti a sit neque dolor minus? Culpa, mollitia officia velit labore aspernatur reprehenderit tenetur tempore quaerat minima explicabo!'},
 ]
 export {
   words,
