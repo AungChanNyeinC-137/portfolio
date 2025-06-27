@@ -139,10 +139,10 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
+    name: ".NET Developer",
+    modelPath: "/models/c-sharp.glb",
+    scale: 0.077,
+    rotation: [0, 0, 0],
   },
 ];
 

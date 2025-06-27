@@ -5,7 +5,7 @@ const TitleHeader = ({title, sub, emoji}) => {
         <div className="flex flex-row items-center justify-between hero-badge">
            <span >{emoji}</span> <p className='px-2'>{sub}</p>
         </div>
-        <div className="font-semibold md:text-3xl text-3xl text-center text-white-50">
+        <div className="font-semibold md:text-3xl text-2xl text-center text-white-50">
           {title}
         </div>
 
