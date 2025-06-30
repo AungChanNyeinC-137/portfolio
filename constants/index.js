@@ -92,25 +92,25 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    name: "php Developer",
+    imgPath: "/images/logos/laravel.svg",
   },
-  {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
-  },
-  {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
-  },
-  {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
+  // {
+  //   name: "Python Developer",
+  //   imgPath: "/images/logos/python.svg",
+  // },
+  // {
+  //   name: "Backend Developer",
+  //   imgPath: "/images/logos/node.png",
+  // },
+  // {
+  //   name: "Interactive Developer",
+  //   imgPath: "/images/logos/three.png",
+  // },
+  // {
+  //   name: "Project Manager",
+  //   imgPath: "/images/logos/git.svg",
+  // },
 ];
 
 const techStackIcons = [
@@ -132,12 +132,12 @@ const techStackIcons = [
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
+  // {
+  //   name: "Interactive Developer",
+  //   modelPath: "/models/three.js-transformed.glb",
+  //   scale: 0.05,
+  //   rotation: [0, 0, 0],
+  // },
   {
     name: ".NET Developer",
     modelPath: "/models/c-sharp.glb",
