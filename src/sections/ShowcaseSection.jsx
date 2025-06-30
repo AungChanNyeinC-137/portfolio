@@ -41,37 +41,70 @@ const ShowcaseSection = () => {
         <section id='work' ref={sectionRef} className='app-showcase'>
             <div className="w-full">
                 <div className="showcaselayout">
+
                     {/* LEFT */}
                     {firstProject && (
-                        <div className="first-project-wrapper" key={firstProject.id}>
-                            <div className="image-wrapper">
-                                <img src={firstProject.imgPath} alt={firstProject.title} />
+                        firstProject.url ? (
+                            <a href={firstProject.url} target="_blank" rel="noopener noreferrer">
+                                <div className="first-project-wrapper" key={firstProject.id}>
+                                    <div className="image-wrapper">
+                                        <img src={firstProject.imgPath} alt={firstProject.title} />
+                                    </div>
+                                    <div className="text-content">
+                                        <h2>{firstProject.title}</h2>
+                                        <p className="text-white-50 md:text-xl">{firstProject.description}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        ) : (
+                            <div className="first-project-wrapper" key={firstProject.id}>
+                                <div className="image-wrapper">
+                                    <img src={firstProject.imgPath} alt={firstProject.title} />
+                                </div>
+                                <div className="text-content">
+                                    <h2>{firstProject.title}</h2>
+                                    <p className="text-white-50 md:text-xl">{firstProject.description}</p>
+                                </div>
                             </div>
-                            <div className="text-content">
-                                <h2>{firstProject.title}</h2>
-                                <p className="text-white-50 md:text-xl">{firstProject.description}</p>
-                            </div>
-                        </div>
+                        )
                     )}
+
 
                     {/* RIGHT */}
                     <div className="project-list-wrapper overflow-hidden">
-                        {otherProjects.map((project, index) => (
-                            <div
-                                className="project"
-                                key={project.id}
-                                ref={el => (dynamicRefs.current[index] = el)}
-                            >
-                                <div className="image-wrapper bg-white-50">
-                                    <img src={project.imgPath} alt={project.title} />
+                        {otherProjects.map((project, index) => {
+                            const projectContent = (
+                                <div
+                                    className="project"
+                                    key={project.id}
+                                    ref={el => (dynamicRefs.current[index] = el)}
+                                >
+                                    <div className="image-wrapper bg-white-50">
+                                        <img src={project.imgPath} alt={project.title} />
+                                    </div>
+                                    <h2>{project.title}</h2>
                                 </div>
-                                <h2>{project.title}</h2>
-                            </div>
-                        ))}
+                            );
+
+                            return project.url ? (
+                                <a
+                                    href={project.url}
+                                    key={project.id}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {projectContent}
+                                </a>
+                            ) : (
+                                projectContent
+                            );
+                        })}
+
                     </div>
                 </div>
             </div>
         </section>
+
     )
 }
 
