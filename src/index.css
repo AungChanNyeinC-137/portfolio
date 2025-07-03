@@ -124,7 +124,11 @@ section {
       @apply flex flex-row gap-1 items-center justify-center text-white-50 text-xl md:text-2xl font-semibold transition-transform duration-300 hover:scale-110;
 
       img {
-        @apply w-15 h-15 ;
+        @apply w-15 h-15;
+      }
+
+      span {
+        @apply hidden md:inline;
       }
     }
 
